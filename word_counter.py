@@ -11,7 +11,7 @@ def main():
     word_count = count_words(user_sentence)
     
     # Print the result
-    print(f"Antalet ord i meningen är: {word_count}")
+    print(f"Antalet ord i meningen är {word_count}")
 
 if __name__ == "__main__":
     main() 
